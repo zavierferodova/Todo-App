@@ -9,5 +9,5 @@ Source : [Microsoft Swagger Todo API](https://drive.google.com/file/d/1tYK8i95U9
 1. Download Zip API dan Extract
 2. Run program `TestAPI.exe`
 3. Buka URL `http://localhost:5000/swagger` untuk melihat API Documentation
-4. Ubah `BASE_URL` pada Class `com.zavierdev.todoapp.constant.ApiConstant` dengan IPv4 Address contoh : `192.168.100.44:5000`. Atau bisa juga dengan menggunakan `ngrok`
+4. Ubah `BASE_URL` pada Class `com.zavierdev.todoapp.constant.ApiConstant` dengan IPv4 Address contoh : `http://192.168.100.44:5000`. Atau bisa juga dengan menggunakan `ngrok`
 5. Run and Enjoy :)
