@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RestApiTest">
-        <activity android:name="com.zavierdev.todoapp.ui.deletetodoitem.DeleteTodoItemActivity"></activity>
+        <activity android:name="com.zavierdev.todoapp.ui.deletetodoitem.DeleteTodoActivity"></activity>
         <activity android:name="com.zavierdev.todoapp.ui.updatetodoitem.UpdateTodoActivity" />
         <activity android:name="com.zavierdev.todoapp.ui.addtodoitem.AddTodoActivity" />
         <activity android:name="com.zavierdev.todoapp.ui.listtodo.ListTodoActivity" />

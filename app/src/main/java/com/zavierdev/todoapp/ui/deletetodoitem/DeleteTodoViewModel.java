@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 import cz.msebera.android.httpclient.Header;
 
-public class DeleteTodoItemViewModel extends ViewModel {
+public class DeleteTodoViewModel extends ViewModel {
     public MutableLiveData<TodoResource> apiResponse = new MutableLiveData<>();
 
     public void deleteTodoItem(int id) {

@@ -15,8 +15,8 @@ import androidx.lifecycle.ViewModelProvider;
 import com.zavierdev.todoapp.R;
 import com.zavierdev.todoapp.resource.TodoResource;
 
-public class DeleteTodoItemActivity extends AppCompatActivity {
-    private DeleteTodoItemViewModel viewModel;
+public class DeleteTodoActivity extends AppCompatActivity {
+    private DeleteTodoViewModel viewModel;
     private EditText edtId;
     private Button btnDeleteTodo;
     private TextView tvStatus;
@@ -24,9 +24,9 @@ public class DeleteTodoItemActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_delete_todo_item);
+        setContentView(R.layout.activity_delete_todo);
 
-        viewModel = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(DeleteTodoItemViewModel.class);
+        viewModel = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(DeleteTodoViewModel.class);
 
         edtId = findViewById(R.id.edt_id);
         btnDeleteTodo = findViewById(R.id.btn_delete_todo);

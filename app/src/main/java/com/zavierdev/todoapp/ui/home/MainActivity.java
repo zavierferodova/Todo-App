@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.zavierdev.todoapp.R;
 import com.zavierdev.todoapp.ui.addtodoitem.AddTodoActivity;
-import com.zavierdev.todoapp.ui.deletetodoitem.DeleteTodoItemActivity;
+import com.zavierdev.todoapp.ui.deletetodoitem.DeleteTodoActivity;
 import com.zavierdev.todoapp.ui.listtodo.ListTodoActivity;
 import com.zavierdev.todoapp.ui.updatetodoitem.UpdateTodoActivity;
 
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         btnTodoDelete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, DeleteTodoItemActivity.class);
+                Intent intent = new Intent(MainActivity.this, DeleteTodoActivity.class);
                 startActivity(intent);
             }
         });
