@@ -1,6 +1,6 @@
 # Android Todo App
 
-Todo Application yang dibangun dengan Microsoft Swagger Todo API
+Todo Application yang dibangun dengan Microsoft Swagger Todo API sekaligus sebagai latihan pembuatan aplikasi mobile untuk LKS Jateng 2021 bidang lomba "IT Software Solution For Business".
 
 ## API Source
 Source : [Microsoft Swagger Todo API](https://drive.google.com/file/d/1tYK8i95U98-fBWpJ9eGZesgFDrHQZRbY/view?usp=sharing)
